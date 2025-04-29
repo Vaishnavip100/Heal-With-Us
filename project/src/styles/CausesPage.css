@@ -1,0 +1,53 @@
+.stories-container {
+    padding: 2rem;
+    max-width: 1200px;
+    background: linear-gradient(180deg, rgba(230, 171, 245, 0.5) 0%, rgba(230, 171, 245, 0) 100%);
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+  
+  .stories-container h1 {
+    text-align: center;
+    color: #8e02a3;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  .stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .story-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .story-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .story-card h3 {
+    color: #8e02a3;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .story-card p {
+    color: #684a5f;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  .story-author {
+    color: #8e02a3;
+    font-weight: 600;
+    display: block;
+    text-align: right;
+  }

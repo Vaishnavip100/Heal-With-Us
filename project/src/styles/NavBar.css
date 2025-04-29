@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .logo svg {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .button {
+    padding: 0.85rem 2.5rem;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  .button-primary {
+    background-color: #8e02a3;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 15px rgba(231, 28, 221, 0.3);
+  }
+  
+  .button-primary:hover {
+    background-color: #cb05fc;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(231, 28, 221, 0.3);
+  }
+  
+  .button-secondary {
+    background-color: transparent;
+    color: #8e02a3;
+    border: 2px solid #8e02a3;
+  }
+  
+  .button-secondary:hover {
+    background-color: #cb05fc;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(231, 28, 221, 0.3);
+  }
