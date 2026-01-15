@@ -14,7 +14,7 @@ const { initializeNlp } = require('./services/nlpSetup');
 const app = express();
 const PORT = process.env.PORT || 5001;
 const MONGODB_URI = process.env.MONGODB_URI;
-const FRONTEND_URL = process.env.FRONTEND_URL || "https://heal-with-us.onrender.com";
+const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:5173";
 
 // --- Create HTTP Server and Socket.IO Server ---
 const httpServer = http.createServer(app); //Create HTTP server instance wrapping Express app
