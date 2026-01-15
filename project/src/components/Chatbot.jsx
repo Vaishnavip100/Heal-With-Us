@@ -5,7 +5,7 @@ import { Navigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import '../styles/Chatbot.css';
 
-const CHATBOT_API_URL = 'http://localhost:5001/api/chat/message';
+const CHATBOT_API_URL = 'https://heal-with-us-backend.onrender.com/api/chat/message';
 
 // Accept isAuthenticated as a prop
 function Chatbot({ isAuthenticated,onLogout }) {
