@@ -17,9 +17,8 @@ import Footer from './components/Footer';
 import CommunityChat from './components/CommunityChat';
 
 // --- Configuration ---
-const SOCKET_SERVER_URL = 'http://localhost:5001'; // Your backend socket server
-const USER_STORAGE_KEY = 'healWithUsUser'; // Key for localStorage
-
+const SOCKET_SERVER_URL = "https://heal-with-us-backend.onrender.com";
+const USER_STORAGE_KEY = 'healWithUsUser';
 //LOGIN COMPONENT
 function Login({ onLoginSuccess }) {
   const navigate = useNavigate();
